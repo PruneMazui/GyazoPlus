@@ -8,3 +8,5 @@ output/
 *.suo
 *.ncb
 gyazowin.vcproj.*
+/ipch
+/gyazowin/*.user
