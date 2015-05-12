@@ -1,0 +1,13 @@
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo_plus.Properties.Resources.resources
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.csproj.GenerateResource.Cache
+D:\CODES\Gyazowinpp\taskbar\bin\Release\gyazo-plus.exe.manifest
+D:\CODES\Gyazowinpp\taskbar\bin\Release\gyazo-plus.application
+D:\CODES\Gyazowinpp\taskbar\bin\Release\gyazo-plus.exe
+D:\CODES\Gyazowinpp\taskbar\bin\Release\gyazo-plus.pdb
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo_plus.FormConfig.resources
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo_plus.FormTaskBar.resources
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.TrustInfo.xml
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.exe.manifest
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.application
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.exe
+D:\CODES\Gyazowinpp\taskbar\obj\x86\Release\gyazo-plus.pdb

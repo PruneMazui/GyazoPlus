@@ -1,0 +1,13 @@
+D:\CODES\gyazo-hj\client\taskbar\bin\Debug\gyazo-hj-tool.exe
+D:\CODES\gyazo-hj\client\taskbar\bin\Debug\gyazo-hj-tool.pdb
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo_hj_tool.formTaskBar.resources
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo_hj_tool.Properties.Resources.resources
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.csproj.GenerateResource.Cache
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.exe
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.pdb
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo_hj_tool.FormConfig.resources
+D:\CODES\gyazo-hj\client\taskbar\bin\Debug\gyazo-hj-tool.exe.manifest
+D:\CODES\gyazo-hj\client\taskbar\bin\Debug\gyazo-hj-tool.application
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.TrustInfo.xml
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.exe.manifest
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Debug\gyazo-hj-tool.application

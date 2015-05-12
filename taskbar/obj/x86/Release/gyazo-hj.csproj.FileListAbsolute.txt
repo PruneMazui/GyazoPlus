@@ -1,0 +1,14 @@
+D:\CODES\gyazo-hj\client\taskbar\bin\Release\gyazo-hj.exe.manifest
+D:\CODES\gyazo-hj\client\taskbar\bin\Release\gyazo-hj.application
+D:\CODES\gyazo-hj\client\taskbar\bin\Release\gyazo-hj.exe
+D:\CODES\gyazo-hj\client\taskbar\bin\Release\gyazo-hj.pdb
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo_hj.FormConfig.resources
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo_hj.FormTaskBar.resources
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo_hj.Properties.Resources.resources
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.csproj.GenerateResource.Cache
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.TrustInfo.xml
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.exe.manifest
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.application
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.exe
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.pdb
+D:\CODES\gyazo-hj\client\taskbar\obj\x86\Release\gyazo-hj.csprojResolveAssemblyReference.cache
