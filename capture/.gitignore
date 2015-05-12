@@ -1,0 +1,12 @@
+.DS_Store
+Debug/
+debug/
+Release/
+release/
+Output/
+output/
+*.suo
+*.ncb
+gyazowin.vcproj.*
+/ipch
+/gyazowin/*.user
