@@ -19,7 +19,7 @@ DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
 OutputDir=..\installer
-OutputBaseFilename=gyazo-hj-installer-{#MyAppVersion}
+OutputBaseFilename=gyazo-plus-installer-{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 

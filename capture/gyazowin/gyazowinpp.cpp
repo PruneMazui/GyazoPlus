@@ -53,7 +53,7 @@ int APIENTRY _tWinMain(HINSTANCE hInstance,
 	// カレントディレクトリAppDataにする
 	TCHAR idDir[_MAX_PATH];
 	SHGetSpecialFolderPath( NULL, idDir, CSIDL_APPDATA, FALSE );
-	 _tcscat_s( idDir, _T("\\GyazoHJ"));
+	 _tcscat_s( idDir, _T("\\GyazoPlus"));
 	SetCurrentDirectory(idDir);
 
 	g_Settings = loadSettings(_T(INIFILE_NAME), _T(INIFILE_SECTION_NAME));
@@ -744,7 +744,7 @@ std::string getId()
 
     SHGetSpecialFolderPath( NULL, idFile, CSIDL_APPDATA, FALSE );
 
-	 _tcscat_s( idFile, _T("\\GyazoHJ"));
+	 _tcscat_s( idFile, _T("\\GyazoPlus"));
 	 _tcscpy_s( idDir, idFile);
 	 _tcscat_s( idFile, _T("\\id.txt"));
 
@@ -772,7 +772,7 @@ BOOL saveId(const WCHAR* str)
 
     SHGetSpecialFolderPath( NULL, idFile, CSIDL_APPDATA, FALSE );
 
-	 _tcscat_s( idFile, _T("\\GyazoHJ"));
+	 _tcscat_s( idFile, _T("\\GyazoPlus"));
 	 _tcscpy_s( idDir, idFile);
 	 _tcscat_s( idFile, _T("\\id.txt"));
 

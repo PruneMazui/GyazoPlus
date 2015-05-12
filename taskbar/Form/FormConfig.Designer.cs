@@ -550,7 +550,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormConfig";
-            this.Text = "Gyazo HJ 設定";
+            this.Text = "Gyazo Plus 設定";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();

@@ -45,10 +45,10 @@
             // 
             this.notifyTaskBar.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyTaskBar.BalloonTipText = "アプリケーションを開始しました。";
-            this.notifyTaskBar.BalloonTipTitle = "Gyazo HJ";
+            this.notifyTaskBar.BalloonTipTitle = "Gyazo Plus";
             this.notifyTaskBar.ContextMenuStrip = this.contextMenuStrip;
             this.notifyTaskBar.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyTaskBar.Icon")));
-            this.notifyTaskBar.Text = "Gyazo HJ";
+            this.notifyTaskBar.Text = "Gyazo Plus";
             this.notifyTaskBar.Visible = true;
             this.notifyTaskBar.DoubleClick += new System.EventHandler(this.notifyTaskBar_DoubleClick);
             // 
