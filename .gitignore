@@ -1,0 +1,12 @@
+/capture/Debug/
+/capture/debug/
+/capture/Release/
+/capture/release/
+/capture/Output/
+/capture/output/
+/capture/*.suo
+/capture/*.ncb
+/capture/gyazowin.vcproj.*
+/capture/ipch
+/capture/gyazowin/*.user
+/capture
