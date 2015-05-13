@@ -215,7 +215,7 @@
             this.checkUpDialog.Name = "checkUpDialog";
             this.checkUpDialog.Size = new System.Drawing.Size(267, 22);
             this.checkUpDialog.TabIndex = 13;
-            this.checkUpDialog.Text = "アップロード前に確認ダイヤログを表示する";
+            this.checkUpDialog.Text = "アップロード前に確認ダイアログを表示する";
             this.checkUpDialog.UseVisualStyleBackColor = true;
             // 
             // label7

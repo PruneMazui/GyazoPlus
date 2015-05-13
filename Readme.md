@@ -1,9 +1,6 @@
 # GyazoPlus
 
-## 使い方
-
-下記からインストーラーを落としてインストールしてください。  
-https://github.com/PruneMazui/GyazoPlus/blob/master/gyazo-plus-installer-1.1.exe
+日本語でスミマセン
 
 ## 本家Gyazoとの違い
 
@@ -16,9 +13,12 @@ https://github.com/PruneMazui/GyazoPlus/blob/master/gyazo-plus-installer-1.1.exe
 * UIから設定の変更、INIファイル自動生成
 * 設定ファイルの配置場所変更
 
-## 使用条件
+## 使い方
 
-* .NET Framework 3.5 Client Profile
+下記からインストーラーを落としてインストールしてください。  
+https://github.com/PruneMazui/GyazoPlus/blob/master/gyazo-plus-installer.exe
+
+.NET Framework 3.5 Client Profile 必須
 
 ## 謝辞
 
