@@ -16,7 +16,7 @@
 ## 使い方
 
 下記からインストーラーを落としてインストールしてください。  
-https://github.com/PruneMazui/GyazoPlus/blob/master/gyazo-plus-installer.exe
+https://github.com/PruneMazui/GyazoPlus/raw/master/gyazo-plus-installer.exe
 
 .NET Framework 3.5 Client Profile 必須
 
