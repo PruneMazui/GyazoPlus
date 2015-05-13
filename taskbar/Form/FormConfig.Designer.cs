@@ -64,13 +64,13 @@
             this.textLogFilename = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label15 = new System.Windows.Forms.Label();
+            this.checkShowBalloon = new System.Windows.Forms.CheckBox();
             this.label14 = new System.Windows.Forms.Label();
             this.textListUrl = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.fileDialogUploadLog = new System.Windows.Forms.SaveFileDialog();
             this.labelVersion = new System.Windows.Forms.Label();
-            this.checkShowBalloon = new System.Windows.Forms.CheckBox();
-            this.label15 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -247,7 +247,7 @@
             this.checkCopyDialog.Name = "checkCopyDialog";
             this.checkCopyDialog.Size = new System.Drawing.Size(303, 22);
             this.checkCopyDialog.TabIndex = 16;
-            this.checkCopyDialog.Text = "クリップボードへコピー時にダイヤログを表示する";
+            this.checkCopyDialog.Text = "クリップボードへコピー時にダイアログを表示する";
             this.checkCopyDialog.UseVisualStyleBackColor = true;
             // 
             // checkOpenBrowser
@@ -473,6 +473,27 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "動作設定";
             // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label15.Location = new System.Drawing.Point(3, 156);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(224, 18);
+            this.label15.TabIndex = 34;
+            this.label15.Text = "　　　　　　　　　　　　　　　　　　";
+            // 
+            // checkShowBalloon
+            // 
+            this.checkShowBalloon.AutoSize = true;
+            this.checkShowBalloon.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.checkShowBalloon.Location = new System.Drawing.Point(6, 177);
+            this.checkShowBalloon.Name = "checkShowBalloon";
+            this.checkShowBalloon.Size = new System.Drawing.Size(315, 22);
+            this.checkShowBalloon.TabIndex = 33;
+            this.checkShowBalloon.Text = "起動時に通知を表示する（再起動後有効になります）";
+            this.checkShowBalloon.UseVisualStyleBackColor = true;
+            // 
             // label14
             // 
             this.label14.AutoSize = true;
@@ -514,27 +535,6 @@
             this.labelVersion.Size = new System.Drawing.Size(54, 18);
             this.labelVersion.TabIndex = 32;
             this.labelVersion.Text = "Version ";
-            // 
-            // checkShowBalloon
-            // 
-            this.checkShowBalloon.AutoSize = true;
-            this.checkShowBalloon.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkShowBalloon.Location = new System.Drawing.Point(6, 177);
-            this.checkShowBalloon.Name = "checkShowBalloon";
-            this.checkShowBalloon.Size = new System.Drawing.Size(315, 22);
-            this.checkShowBalloon.TabIndex = 33;
-            this.checkShowBalloon.Text = "起動時に通知を表示する（再起動後有効になります）";
-            this.checkShowBalloon.UseVisualStyleBackColor = true;
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label15.Location = new System.Drawing.Point(3, 156);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(224, 18);
-            this.label15.TabIndex = 34;
-            this.label15.Text = "　　　　　　　　　　　　　　　　　　";
             // 
             // FormConfig
             // 
