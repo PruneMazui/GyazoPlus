@@ -16,6 +16,7 @@ namespace gyazo_plus
         public class ItemsCapture
         {
             public string upload_server = "";
+            public string upload_port = "";
             public string upload_path = "";
 
             public bool use_ssl = false;
@@ -72,6 +73,7 @@ namespace gyazo_plus
 
                     // キャプチャ設定
                     itemsCapture.upload_server = ini.Get(Constant.CONFIG_SECTION_CAPTURE, "upload_server", "");
+                    itemsCapture.upload_port = ini.Get(Constant.CONFIG_SECTION_CAPTURE, "upload_port", "");
                     itemsCapture.upload_path = ini.Get(Constant.CONFIG_SECTION_CAPTURE, "upload_path", "");
                     itemsCapture.use_ssl = ini.Get(Constant.CONFIG_SECTION_CAPTURE, "use_ssl", "") == "yes" ? true : false;
                     itemsCapture.ssl_check_cert = ini.Get(Constant.CONFIG_SECTION_CAPTURE, "ssl_check_cert", "") == "yes" ? true : false;
@@ -118,6 +120,7 @@ namespace gyazo_plus
 
                 // キャプチャ設定
                 ini.Set(Constant.CONFIG_SECTION_CAPTURE, "upload_server", itemsCapture.upload_server);
+                ini.Set(Constant.CONFIG_SECTION_CAPTURE, "upload_port", itemsCapture.upload_port);
                 ini.Set(Constant.CONFIG_SECTION_CAPTURE, "upload_path", itemsCapture.upload_path);
                 ini.Set(Constant.CONFIG_SECTION_CAPTURE, "use_ssl", itemsCapture.use_ssl ? "yes" : "no");
                 ini.Set(Constant.CONFIG_SECTION_CAPTURE, "ssl_check_cert", itemsCapture.ssl_check_cert ? "yes" : "no");

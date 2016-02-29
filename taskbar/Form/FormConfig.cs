@@ -37,9 +37,23 @@ namespace gyazo_plus
         private bool isValid()
         {
             string msg = "";
+
             if (this.textUploadServer.Text.Length == 0)
             {
                 msg += "アップロードホストを入力してください。\n";
+            }
+
+            if (this.textUploadPort.Text.Length != 0)
+            {
+                int number;
+                if (!int.TryParse(this.textUploadPort.Text, out number))
+                {
+                    msg += "ポート番号は数値を入力してください。\n";
+                }
+                else if(Constant.PORTNUMBER_MIN > number || number > Constant.PORTNUMBER_MAX)
+                {
+                    msg += "ポート番号は" + Constant.PORTNUMBER_MIN.ToString() + "以上" + Constant.PORTNUMBER_MAX.ToString() + "以下の数値を入力してください。\n";
+                }
             }
 
             if (this.textUploadPath.Text.Length == 0)
@@ -72,6 +86,7 @@ namespace gyazo_plus
 
             // キャプチャ設定
             textUploadServer.Text = config.itemsCapture.upload_server;
+            textUploadPort.Text = config.itemsCapture.upload_port;
             textUploadPath.Text = config.itemsCapture.upload_path;
 
             checkUseSsl.Checked = config.itemsCapture.use_ssl;
@@ -171,6 +186,7 @@ namespace gyazo_plus
 
             // キャプチャ設定
             config.itemsCapture.upload_server = textUploadServer.Text;
+            config.itemsCapture.upload_port = textUploadPort.Text;
             config.itemsCapture.upload_path = textUploadPath.Text;
 
             config.itemsCapture.use_ssl = checkUseSsl.Checked;

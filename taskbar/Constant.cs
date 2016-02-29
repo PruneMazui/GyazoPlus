@@ -30,6 +30,9 @@ namespace gyazo_plus
 
         public static readonly string ID_FILENAME = DIRECTORY_APPLICATION + "\\id.txt";
 
+        public const int PORTNUMBER_MIN = 0;
+        public const int PORTNUMBER_MAX = 65535;
+
         public enum ICON_DOUBLE_CLICK {
             NONE,
             CAPTURE,

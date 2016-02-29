@@ -60,6 +60,8 @@
             this.comboIconDoubleClick = new System.Windows.Forms.ComboBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label16 = new System.Windows.Forms.Label();
+            this.textUploadPort = new System.Windows.Forms.TextBox();
             this.buttonOpenFileDialog = new System.Windows.Forms.Button();
             this.textLogFilename = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
@@ -99,7 +101,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label2.Location = new System.Drawing.Point(6, 36);
+            this.label2.Location = new System.Drawing.Point(18, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(104, 18);
             this.label2.TabIndex = 2;
@@ -108,17 +110,17 @@
             // textUploadPath
             // 
             this.textUploadPath.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textUploadPath.Location = new System.Drawing.Point(116, 33);
+            this.textUploadPath.Location = new System.Drawing.Point(128, 65);
             this.textUploadPath.MaxLength = 512;
             this.textUploadPath.Name = "textUploadPath";
-            this.textUploadPath.Size = new System.Drawing.Size(212, 25);
+            this.textUploadPath.Size = new System.Drawing.Size(200, 25);
             this.textUploadPath.TabIndex = 3;
             // 
             // checkUseAuth
             // 
             this.checkUseAuth.AutoSize = true;
             this.checkUseAuth.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkUseAuth.Location = new System.Drawing.Point(9, 156);
+            this.checkUseAuth.Location = new System.Drawing.Point(9, 188);
             this.checkUseAuth.Name = "checkUseAuth";
             this.checkUseAuth.Size = new System.Drawing.Size(160, 22);
             this.checkUseAuth.TabIndex = 4;
@@ -130,7 +132,7 @@
             // 
             this.checkUseSsl.AutoSize = true;
             this.checkUseSsl.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkUseSsl.Location = new System.Drawing.Point(9, 82);
+            this.checkUseSsl.Location = new System.Drawing.Point(9, 114);
             this.checkUseSsl.Name = "checkUseSsl";
             this.checkUseSsl.Size = new System.Drawing.Size(182, 22);
             this.checkUseSsl.TabIndex = 5;
@@ -142,7 +144,7 @@
             // 
             this.checkSslCheckCert.AutoSize = true;
             this.checkSslCheckCert.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkSslCheckCert.Location = new System.Drawing.Point(40, 110);
+            this.checkSslCheckCert.Location = new System.Drawing.Point(40, 142);
             this.checkSslCheckCert.Name = "checkSslCheckCert";
             this.checkSslCheckCert.Size = new System.Drawing.Size(135, 22);
             this.checkSslCheckCert.TabIndex = 6;
@@ -153,7 +155,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label3.Location = new System.Drawing.Point(6, 61);
+            this.label3.Location = new System.Drawing.Point(6, 93);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(224, 18);
             this.label3.TabIndex = 7;
@@ -163,7 +165,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label4.Location = new System.Drawing.Point(6, 135);
+            this.label4.Location = new System.Drawing.Point(6, 167);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(224, 18);
             this.label4.TabIndex = 8;
@@ -173,7 +175,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label5.Location = new System.Drawing.Point(37, 187);
+            this.label5.Location = new System.Drawing.Point(37, 219);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(68, 18);
             this.label5.TabIndex = 9;
@@ -182,7 +184,7 @@
             // textAuthId
             // 
             this.textAuthId.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textAuthId.Location = new System.Drawing.Point(110, 184);
+            this.textAuthId.Location = new System.Drawing.Point(110, 216);
             this.textAuthId.MaxLength = 512;
             this.textAuthId.Name = "textAuthId";
             this.textAuthId.Size = new System.Drawing.Size(218, 25);
@@ -192,7 +194,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label6.Location = new System.Drawing.Point(37, 215);
+            this.label6.Location = new System.Drawing.Point(37, 247);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(68, 18);
             this.label6.TabIndex = 11;
@@ -201,7 +203,7 @@
             // textAuthPw
             // 
             this.textAuthPw.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textAuthPw.Location = new System.Drawing.Point(110, 215);
+            this.textAuthPw.Location = new System.Drawing.Point(110, 247);
             this.textAuthPw.MaxLength = 512;
             this.textAuthPw.Name = "textAuthPw";
             this.textAuthPw.Size = new System.Drawing.Size(218, 25);
@@ -211,7 +213,7 @@
             // 
             this.checkUpDialog.AutoSize = true;
             this.checkUpDialog.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkUpDialog.Location = new System.Drawing.Point(9, 264);
+            this.checkUpDialog.Location = new System.Drawing.Point(9, 296);
             this.checkUpDialog.Name = "checkUpDialog";
             this.checkUpDialog.Size = new System.Drawing.Size(267, 22);
             this.checkUpDialog.TabIndex = 13;
@@ -222,7 +224,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label7.Location = new System.Drawing.Point(6, 243);
+            this.label7.Location = new System.Drawing.Point(6, 275);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(224, 18);
             this.label7.TabIndex = 14;
@@ -232,7 +234,7 @@
             // 
             this.checkCopyUrl.AutoSize = true;
             this.checkCopyUrl.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkCopyUrl.Location = new System.Drawing.Point(9, 292);
+            this.checkCopyUrl.Location = new System.Drawing.Point(9, 324);
             this.checkCopyUrl.Name = "checkCopyUrl";
             this.checkCopyUrl.Size = new System.Drawing.Size(219, 22);
             this.checkCopyUrl.TabIndex = 15;
@@ -243,7 +245,7 @@
             // 
             this.checkCopyDialog.AutoSize = true;
             this.checkCopyDialog.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkCopyDialog.Location = new System.Drawing.Point(9, 320);
+            this.checkCopyDialog.Location = new System.Drawing.Point(9, 352);
             this.checkCopyDialog.Name = "checkCopyDialog";
             this.checkCopyDialog.Size = new System.Drawing.Size(303, 22);
             this.checkCopyDialog.TabIndex = 16;
@@ -254,7 +256,7 @@
             // 
             this.checkOpenBrowser.AutoSize = true;
             this.checkOpenBrowser.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkOpenBrowser.Location = new System.Drawing.Point(9, 348);
+            this.checkOpenBrowser.Location = new System.Drawing.Point(9, 380);
             this.checkOpenBrowser.Name = "checkOpenBrowser";
             this.checkOpenBrowser.Size = new System.Drawing.Size(279, 22);
             this.checkOpenBrowser.TabIndex = 17;
@@ -306,7 +308,7 @@
             // buttonOk
             // 
             this.buttonOk.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonOk.Location = new System.Drawing.Point(154, 464);
+            this.buttonOk.Location = new System.Drawing.Point(154, 497);
             this.buttonOk.Name = "buttonOk";
             this.buttonOk.Size = new System.Drawing.Size(90, 25);
             this.buttonOk.TabIndex = 23;
@@ -327,7 +329,7 @@
             // buttonCancel
             // 
             this.buttonCancel.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonCancel.Location = new System.Drawing.Point(250, 464);
+            this.buttonCancel.Location = new System.Drawing.Point(250, 497);
             this.buttonCancel.Name = "buttonCancel";
             this.buttonCancel.Size = new System.Drawing.Size(90, 25);
             this.buttonCancel.TabIndex = 25;
@@ -339,7 +341,7 @@
             // 
             this.checkWriteLog.AutoSize = true;
             this.checkWriteLog.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.checkWriteLog.Location = new System.Drawing.Point(9, 376);
+            this.checkWriteLog.Location = new System.Drawing.Point(9, 408);
             this.checkWriteLog.Name = "checkWriteLog";
             this.checkWriteLog.Size = new System.Drawing.Size(183, 22);
             this.checkWriteLog.TabIndex = 26;
@@ -386,12 +388,14 @@
             this.tabControl1.Location = new System.Drawing.Point(0, 0);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(344, 458);
+            this.tabControl1.Size = new System.Drawing.Size(344, 491);
             this.tabControl1.TabIndex = 30;
             // 
             // tabPage1
             // 
             this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.label16);
+            this.tabPage1.Controls.Add(this.textUploadPort);
             this.tabPage1.Controls.Add(this.buttonOpenFileDialog);
             this.tabPage1.Controls.Add(this.textLogFilename);
             this.tabPage1.Controls.Add(this.label8);
@@ -417,14 +421,34 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 27);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(336, 427);
+            this.tabPage1.Size = new System.Drawing.Size(336, 460);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "キャプチャ設定";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.label16.Location = new System.Drawing.Point(54, 36);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(68, 18);
+            this.label16.TabIndex = 33;
+            this.label16.Text = "ポート番号";
+            // 
+            // textUploadPort
+            // 
+            this.textUploadPort.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
+            this.textUploadPort.ImeMode = System.Windows.Forms.ImeMode.Disable;
+            this.textUploadPort.Location = new System.Drawing.Point(128, 33);
+            this.textUploadPort.MaxLength = 1024;
+            this.textUploadPort.Name = "textUploadPort";
+            this.textUploadPort.Size = new System.Drawing.Size(200, 25);
+            this.textUploadPort.TabIndex = 32;
             // 
             // buttonOpenFileDialog
             // 
             this.buttonOpenFileDialog.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.buttonOpenFileDialog.Location = new System.Drawing.Point(272, 396);
+            this.buttonOpenFileDialog.Location = new System.Drawing.Point(272, 428);
             this.buttonOpenFileDialog.Name = "buttonOpenFileDialog";
             this.buttonOpenFileDialog.Size = new System.Drawing.Size(56, 25);
             this.buttonOpenFileDialog.TabIndex = 31;
@@ -435,7 +459,7 @@
             // textLogFilename
             // 
             this.textLogFilename.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.textLogFilename.Location = new System.Drawing.Point(87, 396);
+            this.textLogFilename.Location = new System.Drawing.Point(87, 428);
             this.textLogFilename.MaxLength = 512;
             this.textLogFilename.Name = "textLogFilename";
             this.textLogFilename.Size = new System.Drawing.Size(179, 25);
@@ -445,7 +469,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.label8.Location = new System.Drawing.Point(37, 399);
+            this.label8.Location = new System.Drawing.Point(37, 431);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(44, 18);
             this.label8.TabIndex = 27;
@@ -469,7 +493,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 27);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(336, 427);
+            this.tabPage2.Size = new System.Drawing.Size(336, 460);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "動作設定";
             // 
@@ -530,7 +554,7 @@
             // 
             this.labelVersion.AutoSize = true;
             this.labelVersion.Font = new System.Drawing.Font("メイリオ", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
-            this.labelVersion.Location = new System.Drawing.Point(10, 467);
+            this.labelVersion.Location = new System.Drawing.Point(10, 500);
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(54, 18);
             this.labelVersion.TabIndex = 32;
@@ -540,7 +564,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(344, 501);
+            this.ClientSize = new System.Drawing.Size(344, 531);
             this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.label11);
@@ -605,5 +629,7 @@
         private System.Windows.Forms.Label labelVersion;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.CheckBox checkShowBalloon;
+        private System.Windows.Forms.TextBox textUploadPort;
+        private System.Windows.Forms.Label label16;
     }
 }
