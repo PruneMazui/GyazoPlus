@@ -15,3 +15,5 @@ output
 /taskbar/gyazo-plus.suo
 /capture/gyazowinpp.sdf
 /installer/*.exe
+/capture/.vs/gyazowinpp/v14/.suo
+/capture/gyazowinpp.VC.opendb

@@ -815,6 +815,7 @@ BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 	std::string			idStr;	// ID
 
 	LPCWSTR lpwcUploadServer;	// アップロード先サーバ
+	INT     intUploadPort;      // アップロード先ポート
 	LPCWSTR lpwcUploadPath;		// アップロード先パス
 
 	LPCWSTR lpwcId;			// 認証用ID
@@ -914,16 +915,23 @@ BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 
 	// SSL
 	dwFlags = INTERNET_FLAG_DONT_CACHE | INTERNET_FLAG_RELOAD;
+	intUploadPort = INTERNET_DEFAULT_HTTP_PORT;
 	if (g_Settings.count(L"use_ssl") && g_Settings[L"use_ssl"] == L"yes") {
 		dwFlags |= INTERNET_FLAG_SECURE;
+		intUploadPort = INTERNET_DEFAULT_HTTPS_PORT;
 		if (g_Settings.count(L"ssl_check_cert") && g_Settings[L"ssl_check_cert"] == L"no") {
 			dwFlags |= INTERNET_FLAG_IGNORE_CERT_CN_INVALID | INTERNET_FLAG_IGNORE_CERT_DATE_INVALID;
 		}
 	}
 
+	// ポート番号
+	if (g_Settings.count(L"upload_port") && std::all_of(g_Settings[L"upload_port"].cbegin(), g_Settings[L"upload_port"].cend(), isdigit)) {
+		intUploadPort = std::stoi(g_Settings[L"upload_port"]);
+	}
+
 	// 接続先
 	HINTERNET hConnection = InternetConnect(hSession, 
-		lpwcUploadServer, INTERNET_DEFAULT_HTTP_PORT,
+		lpwcUploadServer, intUploadPort,
 		lpwcId, lpwcPassword, INTERNET_SERVICE_HTTP, 0, NULL);
 	if(NULL == hSession) {
 		MessageBox(hwnd, _T("Cannot initiate connection"),

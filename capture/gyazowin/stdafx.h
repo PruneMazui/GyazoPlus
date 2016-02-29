@@ -33,7 +33,7 @@
 #include <memory.h>
 #include <tchar.h>
 
-// TODO: プログラムに必要な追加ヘッダーをここで参照してください。
+// プログラムに必要な追加ヘッダーをここで参照してください。
 #include <strsafe.h>
 #include <shlobj.h> 
 #include "shlwapi.h"
@@ -53,3 +53,6 @@ using namespace Gdiplus;
 #include <string>
 #include <vector>
 #include <map>
+#include <cctype>
+#include <algorithm>
+
