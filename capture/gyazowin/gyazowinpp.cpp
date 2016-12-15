@@ -925,7 +925,9 @@ BOOL uploadFile(HWND hwnd, LPCTSTR fileName)
 	}
 
 	// É|Å[Égî‘çÜ
-	if (g_Settings.count(L"upload_port") && std::all_of(g_Settings[L"upload_port"].cbegin(), g_Settings[L"upload_port"].cend(), isdigit)) {
+	if (g_Settings.count(L"upload_port") &&
+		g_Settings[L"upload_port"] != L"" && 
+		std::all_of(g_Settings[L"upload_port"].cbegin(), g_Settings[L"upload_port"].cend(), isdigit)) {
 		intUploadPort = std::stoi(g_Settings[L"upload_port"]);
 	}
 

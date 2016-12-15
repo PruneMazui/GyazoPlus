@@ -17,3 +17,5 @@ output
 /installer/*.exe
 /capture/.vs/gyazowinpp/v14/.suo
 /capture/gyazowinpp.VC.opendb
+/capture/*.opendb
+/capture/*.db
