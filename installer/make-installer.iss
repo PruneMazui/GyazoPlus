@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Gyazo Plus"
-#define MyAppVersion "1.2"
+#define MyAppVersion "1.3"
 #define MyAppPublisher "PruneMazui"
 #define MyAppExeName "gyazo-plus.exe"
 
@@ -13,13 +13,15 @@
 AppId={{BB7EC8A1-FBAF-4BFD-B08D-EA1756316616}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
-;AppVerName={#MyAppName} {#MyAppVersion}
+AppVerName={#MyAppName} {#MyAppVersion}
 AppPublisher={#MyAppPublisher}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
+VersionInfoVersion={#MyAppVersion}
+VersionInfoProductVersion={#MyAppVersion}
 AllowNoIcons=yes
-OutputDir=..\installer
-OutputBaseFilename=../gyazo-plus-installer
+OutputDir=..
+OutputBaseFilename=gyazo-plus-installer
 Compression=lzma
 SolidCompression=yes
 
