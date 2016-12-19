@@ -1,7 +1,9 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C++ Express 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyazowin", "gyazowin\gyazowin.vcxproj", "{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gyazowinpp", "gyazowin\gyazowin.vcxproj", "{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,7 @@ Global
 		{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}.Debug|Win32.Build.0 = Debug|Win32
 		{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}.Release|Win32.ActiveCfg = Release|Win32
 		{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}.Release|Win32.Build.0 = Release|Win32
+		{CB04DF2A-B069-4AC8-B00C-C42A9DB74FCE}.Release|Win32.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
